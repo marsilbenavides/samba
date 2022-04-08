@@ -8,5 +8,5 @@ docker run -it --name "samba" \
   -v /mnt/smb/Projects:/mnt/smb/Projects \
   -d dperson/samba -p \
     -u "projects;prj01" \
-    -s "Projects;/mnt/smb/Projects;yes;no;no;projects" \
+    -s "Projects;/mnt/smb/Projects;yes;no;yes;projects" \
     -w "ROCKGROUP"
